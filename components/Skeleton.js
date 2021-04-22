@@ -1,4 +1,4 @@
-function Skeleton() {
+export default function Skeleton() {
   return (
     <div className="skeleton">
       <div className="s-banner"></div>
@@ -32,5 +32,3 @@ function Skeleton() {
     </div>
   );
 }
-
-export default Skeleton;
